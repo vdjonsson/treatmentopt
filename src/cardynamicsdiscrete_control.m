@@ -329,7 +329,7 @@ function graph_output(tplot, xplot, yplot, uplot, ymax, drugs,switchinginterval)
     yticklabels(drugs)
     title(titlestr) 
     
-    fname = ['../paper/figs/simulation_',  num2str(switchinginterval), '_week']; 
+    fname = ['simulation_',  num2str(switchinginterval), '_week']; 
 
     xlabel('Week');
     print(gcf,fname,'-dpng','-r300');
